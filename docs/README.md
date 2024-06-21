@@ -1,48 +1,34 @@
----
-title: Documentation
-description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-hide_description: true
-sitemap: false
-permalink: /docs/
----
+# [Sylvy's Tech Blog](https://sylvy0815.github.io/)]
 
-Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
-Should you think something is missing, [please let me know](mailto:mail@qwtel.com).
-Should you discover a mistake in the docs (or a bug in general) feel free to [open an issue](https://github.com/hydecorp/hydejack/issues) on GitHub.
+안녕하세요, Sylvy의 깃허브 페이지 블로그입니다. </br>
+Github page와 jekyll, Hydejack theme를 사용한 개인 기술 블로그입니다.</br>
+</br>
+This is my personal blog built using the Hydejack theme version [9.1 PRO]. This project aims to share my thoughts, projects, and tutorials on various topics.
 
-While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.
-{:.note}
+## About Hydejack of jekyll theme.
 
+https://themes.jekyllrc.org/hydejack/
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
-{:.related-posts.faded}
+> This blog is based on the jekyll theme Hydejack Pro. In order to use Pro version of Hydejack, you must purchase the license. Please give credit to the author of the Hydejack, qwtel.
 
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
-{:.related-posts.faded}
+## Versions
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
+> macOS: Sonoma 14.1 </br>
+> theme: Hydejack 9.1 Pro </br>
+> gem: 3.0.3.1</br>
+> Bundler: 1.17.2
 
-[install]: install.md
-[upgrade]: upgrade.md
-[config]: config.md
-[basics]: basics.md
-[writing]: writing.md
-[scripts]: scripts.md
-[build]: build.md
-[advanced]: advanced.md
-[LICENSE]: ../LICENSE.md
-[NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md
+## Install
+
+```sh
+gem install bundler</br>
+bundle install
+```
+
+## Run in Local
+
+```sh
+bundle exec jekyll serve
+```
+
+then open http://localhost:4000

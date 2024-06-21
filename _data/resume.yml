@@ -2,102 +2,152 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
+  name: "Hyo-June Lee"
   label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  # picture: "https://via.placeholder.com/240x240"
+  picture: assets/img/author/passport_photo.png
+  email: "sylvy0815@gmail.com"
+  phone: ""
+  website: "https://sylvy0815.github.io"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    안녕하세요, 이효준입니다.
+    부산대학교 IT응용공학과를 졸업하였으며, 학부생 땐 IoT연구실에 소속했습니다.
+    현재 항만물류 IT 스타트업 "(주)컨테인어스"에 재직 중입니다.
+
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    address: ""
+    postalCode: ""
+    city: "부산광역시"
+    countryCode: "KR"
+    region: ""
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    # - network: "Twitter"
+    #   username: "RHendricksCEO"
+    #   url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Hyo-June Lee"
+      url: "https://www.linkedin.com/in/%ED%9A%A8%EC%A4%80-%EC%9D%B4-0728112a7/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "(주)컨테인어스)"
+    position: "Professional"
+    website: "https://containus.kr"
+    startDate: "2021-10-01"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      (주)컨테인어스는 항만물류 산업의 디지털 전환을 선도하는 IT 기업입니다.
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "항만물류 데이터 조회 OpenAPI 서버 구축"
+      - "배차 최적화를 위한 AI 연구개발 및 시뮬레이션"
+      - "항만물류 운송 건 공유 플랫폼 기획/개발"
+      - "자연어처리를 활용한 항만물류 비정형 데이터 정형화"
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: "부산대학교"
+    position: "Assistant/PM"
+    website: "https:://pusan.ac.kr"
+    startDate: "2018-12-01"
+    endDate: "2019-03-01"
+    summary: "IoT 실습 조교 및 PM"
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "아두이노를 활용한 자율주행차 개발"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "Pusan National University"
+    area: "Applied IT & Engineering"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+    startDate: "2015-03-01"
+    endDate: "2024-02-23"
+    # gpa: "4.0"
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+      IT 응용공학은 IT 기술을 의료, 에너지, 자동차, 조선, 건설, 국방 등 다양한 학문 분야에 응융·융합을 추구하는 분야로, 기술발전 축으로 볼 때 초기 단계에 놓여 있으며, 향후 기술 개발의 성과에 따라 인류복지 기여 및 거대 규모의 고부가가치 산업으로 급성장할 것으로 기대됩니다. 현재 국가에서도 IT 응용·융합 분야를 『IT KOREA 미래전략』의 핵심 분야로 선정하여 정부와 민간에서 대대적인 투자를 수행하고 있으며, 향후 한국 경제 성장을 견인할 것으로 예상하고 있습니다. 이에 따라 본 학과의 학문 분야는 국가의 미래 핵심전략 분야로써 다양한 관련 산업 창출이 기대되고, 전문 기술 인력의 수요가 급증할 것으로 예측됩니다.
+      # - "DB1101 - Basic SQL"
+      # - "CS2011 - Java Introduction"
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - name: "항만 물류 환경에서 유전 알고리즘 기반 물류 자동 배차 최적화 방법"
+    publisher: "이효준, 장우석, 이성진, 김동규"
+    releaseDate: "2023-11-01"
+    website: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11652003"
+    summary: "항만 물류는 그 특성 상 다양한 변수와 제약 조건을 동시에 고려해야 하는 복잡한 환경을 지니고 있다. 이런 복잡한 환경에서 효율적인 배차를 위한 기존의 접근 방법들은 한계를 보이기 시작하였다. 차량 경로 문제(VRP)는 이러한 문제점을 해결하려는 다양한 노력 중 하나로, 이 문제를 극복하기 위한 다양한 최적화 전략이 제시되어 왔다. 본 연구에서는 항만 물류 환경의 특성을 깊게 분석하고, 그 특성에 맞게 커스터마이징 된 메타휴리스틱 알고리즘을 제안한다. 특히, 항만 내에서의 공차거리 최소화를 중심으로 유전 알고리즘의 적용 가능성과 효과를 탐구한다."
+  - name: "항만 물류 환경에서 다중 에이전트 강화학습 기반 최적 배차 모델링 방법"
+    publisher: "이효준, 장우석, 이성진, 김동규"
+    releaseDate: "2023-06-01"
+    website: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11437898"
+    summary: "항만 물류 환경에서 배차 업무원은 화주가 등록한 컨테이너 화물을 화물 운송 기사에게 매칭하는 배차 업무를 진행한다. 하지만, 사람이 항만 물류 환경에서의 여러 복합적인 요소들을 모두 고려하며 배차하기 어려운 문제가 있다. 이러한 문제를 해결하기 위해 투입할 운송기사, 경로, 순서 등을 결정하는 차량 경로 문제(VRP, Vehicle Routing Problem)가 연구되어 왔고, 여러 가지 제약에 따른 다양한 유형의 문제들이 연구되어 왔다. 본 연구에서는 다양한 유형의 VRP 중 컨테이너 운송기사의 위치 및 컨테이너의 상차 또는 하차 위치를 고려하여 운송기사가 컨테이너를 싣지 않고 이동하는 거리인 공차거리를 최소화하는 연구를 진행하였다. 또한, 본 연구의 확장을 위한 제약 조건 추가를 용이하게 하기 위해 강화학습 기반 최적 배차 모델링 방법을 제안하고 그 분석 결과를 제시한다."
+  - name: "항만 물류 환경의 컨테이너 야드 공정 최적화를 위한 연합 강화 학습 모델"
+    publisher: "장우석, 이효준, 이성진, 김동규"
+    releaseDate: "2023-06-01"
+    website: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11485449"
+    summary: "항만물류 환경에서 창고업은 다수의 중소기업이 존재하는 상황으로 인해 각 기업이 적은 데이터를 보유하고 있어 인공지능 기술을 적용하기 어렵다. 게다가, 중소 컨테이너 야드 운영사 간 협업을 통한 데이터 공유가 어려운 상황이 추가 제약사항으로 작용한다. 본 논문에서는 이러한 배경을 고려하여 중소 컨테이너 야드 운영사 간 직접적인 데이터 공유 없이 인공지능 모델을 도입 할 수 있는 연합학습을 활용한 강화 학습 기반 컨테이너 야드 공정 최적화 모델을 제안한다. 제안된 방법을 활용하여 중소 컨테이너 야드 운영사는 각자 보유한 소규모의 데이터를 간접적으로 공유하고 결합함으로써 인공지능 모델을 학습할 수 있다. 이를 통하여 개별 기업의 데이터를 보완하여 최적 인공지능 모델을 구축 하여 항만물류 환경에서 효율적인 컨테이너 야드 운영이 가능하도록 한다."
+  - name: "항만 물류 환경에서 강화학습 기반 컨테이너 다단 적재 모델링 방법"
+    publisher: "장우석, 이효준, 이성진, 김동규"
+    releaseDate: "2023-04-01"
+    website: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11397819"
+    summary: "항만 물류 환경에서 한정된 공간에 최대한 많은 컨테이너를 적재하기 위하여 컨테이너 다단 적재를 하고 있다. 다단 적재 상황에서 저단 화물을 취급하려면 상단에 적재된 화물을 다른 장소로 이동시켜야 한다. 이러한 과정을 컨테이너 재취급이라 하며, 재취급 과정에서 비용이 소모되므로 컨테이너 장치장 운영사는 재취급을 최소화하고자 한다. 본 논문에서는 이러한 재취급을 최소화하여 컨테이너를 다단 적재하도록 적재 위치를 추천, 선택하는 강화학습 모델을 제안한다. 제안된 강화학습 모델은 컨테이너의 야드 출고 일자를 고려하여 적재순서를 최적화함으로써 하단에 적재된 컨테이너가 상단에 적재된 컨테이너보다 먼저 출고되는 일이 없도록 관리한다. 이를 통해 배후단지 야드의 컨테이너 보관과정에서 발생하는 물류비용 및 작업 시간을 줄일 수 있다."
+  - name: "항만 물류 환경에서 다중 에이전트 강화학습 기반 최적 배차 모델링 방법"
+    publisher: "이효준, 장우석, 이성진, 김동규"
+    releaseDate: "2022-12-01"
+    website: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11183743"
+    summary: "항만 물류 환경에서 배차 업무원은 화주가 등록한 컨테이너 화물을 화물 운송 기사에게 매칭하는 배차 업무를 진행한다. 이 때, 최대 효율을 위해서는 컨테이너 운송기사의 위치 및 컨테이너의 상차 또는 하차 위치를 고려하여 배차 업무를 수행함으로서 운송거리를 최소화 하는 것이 요구된다. 본 논문에서는 운송 효율을 최대화 하는 강화학습 기반 최적 배차 모델링 방법을 제안하고 그 분석 결과를 제시한다."
+  - name: "항만 물류 환경에서 강화학습 기반 컨테이너 다단 적재 모델링 방법"
+    publisher: "이효준, 장우석, 이성진, 김동규"
+    releaseDate: "2022-12-01"
+    website: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11183742"
+    summary: "항만 물류 환경에서 한정된 공간에 최대한 많은 컨테이너를 적재하기 위하여 컨테이너 다단 적재를 하고있다. 다단 적재 상황에서 저단 화물을 취급하려면 상단에 있는 화물을 다른 장소로 이동시켜야 한다. 이러한 과정을 컨테이너 리 핸들링이라 하며, 리 핸들링 과정에서 비용이 소모되므로 컨테이너 장치장 운영사는 리 핸들링을 최소화하고자 한다. 본 논문에서는 이러한 리 핸들링을 최소화하여 컨테이너를 다단 적재하도록 적재 위치를 추천, 선택하는 강화학습 모델을 제안하고 그 분석 결과를 제시한다."
 skills:
+  - name: "Artificial Intelligence"
+    level: "Master"
+    keywords:
+      - "tensorflow"
+      - "PyTorch"
+      - "UnityML"
+      - "huggingface"
+  - name: "Large Language Model"
+    level: "Master"
+    keywords:
+      - "BERT"
+      - "GPT"
+      - "Gemini"
+      - "Groq"
+      - "Prompt Engineering"
+  - name: "Big Data"
+    level: "Master"
+    keywords:
+      - "Apache Hadoop"
+      - "Apache Kafka"
+      - "Apache Spark"
+      - "Selenium"
+      - "cheerio"
+  - name: "Back-end Server Development"
+    level: "Master"
+    keywords:
+      - "NodeJS"
+      - "PostgreSQL"
   - name: "Web Development"
     level: "Master"
     keywords:
       - "HTML"
       - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Typescript"
+      - "React"
+
 languages:
-  - language: "English"
+  - language: "Korean"
     fluency: "Native speaker"
+  - language: "English"
+    fluency: "Limited working proficiency"
 interests:
-  - name: "Wildlife"
+  - name: "Game"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "League Of Legends"
+  - name: "Instruments"
+    keywords:
+      - "Piano"
+      - "MIDI"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
