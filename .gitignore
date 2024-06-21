@@ -1,0 +1,71 @@
+# Jekyll 관련 파일
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache/
+
+# Bundler 관련 파일
+vendor/bundle/
+
+# 로그 파일들
+*.log
+
+# byebug command history
+.byebug_history
+
+# System specific
+.DS_Store
+
+# Ruby specific
+*.gem
+*.rbc
+.ruby-version
+.ruby-gemset
+
+# Mac specific
+._*
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Node modules
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compiled files
+*.o
+*.pyc
+*.pyo
+*.so
+
+# Jekyll-specific caches
+.jekyll-cache/
+.jekyll-metadata
+
+# Hydejack-specific files (if any custom to Hydejack)
+# Example: If Hydejack generates additional files/directories that are not standard, add them here
+# Note: If unsure, run `git status` to see if there are any unusual untracked files and add them here.
+
+# Custom ignore rules for additional tools or editors (optional)
+.idea/
+.vscode/
