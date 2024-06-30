@@ -40,8 +40,8 @@ logo: /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: <firstname> <lastname>
-  email: <mail@domain.tld>
+  name: 효준 이
+  email: sylvy0815@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -135,10 +135,10 @@ defaults:
       sitemap: false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  - scope:
+      type: posts, pages, projects
+    values:
+      comments: true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -173,6 +173,7 @@ kramdown:
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
 # disqus:                <username>
+disqus: disqus_FMyGdhi6D6
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
