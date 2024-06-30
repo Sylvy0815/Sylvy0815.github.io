@@ -1,28 +1,27 @@
 ---
 layout: page
-title: Thank You!
+title: 안녕하세요, 이효준(Sylvy)의 기술 블로그입니다!
 sitemap: false
 ---
 
-Thank you for buying the PRO version of Hydejack! 🎉
+안녕하세요, 이효준(Sylvy)의 기술 블로그입니다! </br>
+현재 새단장 중이며, 2024-07 중으로 정상화될 예정입니다 🎉
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+본 블로그는 HydeJack Theme를 이용해 작성되었습니다. [qwtel](https://qwtel.com/).
 
 ## First Steps
+
 Start by reading the [Documentation]{:.heading.flip-title}.
 Specifically, the chapters below should be relevant now:
 
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
-{:.related-posts.faded}
+- [Install]{:.heading.flip-title} --- How to install and run Hydejack.
+- [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
+  {:.related-posts.faded}
 
 After you've familiarized yourself with Hydejack, you can delete the following folders and files
 containing example content:
 
-~~~
+```
 ├── _featured_categories
 │   └── example.md
 ├── _projects
@@ -39,7 +38,7 @@ containing example content:
 ├── forms-by-example.md
 ├── LICENSE.md
 └── NOTICE.md
-~~~
+```
 
 [documentation]: docs/README.md
 [install]: docs/install.md

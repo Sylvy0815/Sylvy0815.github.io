@@ -11,7 +11,7 @@ basics:
   website: "https://sylvy0815.github.io"
   summary: >
     안녕하세요, 이효준입니다.
-    부산대학교 IT응용공학과를 졸업하였으며, 학부생 땐 IoT연구실에 소속했습니다.
+    부산대학교 IT응용공학과를 졸업하였으며, 학부 시절 IoT Lab.에 소속했습니다.
     현재 항만물류 IT 스타트업 "(주)컨테인어스"에 재직 중입니다.
 
   location:
@@ -66,6 +66,11 @@ education:
 #     awarder: "Techcrunch"
 #     summary: "There is no spoon."
 publications:
+  - name: "강화학습 기반의 화물 운송 차량 배차 방법 및 시스템 (METHOD AND SYSTEM FOR DISPATCHING FREIGHT CAR BASED ON REINFORCEMENT LEARNING)"
+    publisher: "이효준, 김동규, 장우석, 강정구, 이성진"
+    releaseDate: "2024-06-04"
+    website: "http://kportal.kipris.or.kr/kportal/search/search_patent.do"
+    summary: "본 개시는 정보 처리 시스템의 적어도 하나의 프로세서에 의해 수행되는, 강화학습 기반의 화물 운송 차량 배차 방법에 관한 것이다. 강화학습 기반의 화물 운송 차량 배차 방법은, 화물 운송 기사와 연관된 정보를 수신하는 단계, 운송 예정 화물과 연관된 정보를 수신하는 단계, 항만과 연관된 정보를 수신하는 단계 - 항만은 운송 예정 화물의 출발 위치, 도착 위치 또는 반출입 위치 중 적어도 하나에 해당함- 및 운송 적합도를 산출하도록 학습된 강화학습 모델에 화물 운송 기사와 연관된 정보, 운송 예정 화물과 연관된 정보 및 항만과 연관된 정보를 입력하여 화물 운송 기사의 운송 적합도를 산출하는 단계를 포함한다."
   - name: "항만 물류 환경에서 유전 알고리즘 기반 물류 자동 배차 최적화 방법"
     publisher: "이효준, 장우석, 이성진, 김동규"
     releaseDate: "2023-11-01"
