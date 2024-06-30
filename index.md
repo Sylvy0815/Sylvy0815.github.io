@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 안녕하세요, 이효준(Sylvy)의 기술 블로그입니다!
+comments: true
 sitemap: false
 ---
 
